@@ -8,35 +8,29 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "38551"
 tags: Time Series
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/time-series/master/_listings/knoema/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Knoema API Get timeseries list
-  x-api-slug: knoema-api
+- name: Knoema - Get timeseries list
+  x-api-slug: datadatasetdataset-id-get
   description: For the given dataset, this endpoint returns time series list for all
     the available frequencies with the combination of all the dimension members.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg
   humanURL: https://knoema.com
-  baseURL: http://knoema.com//api/1.0//data/dataset/{dataset id}
-  tags: Datasets,Time Series
+  baseURL: http://knoema.com//api/1.0
+  tags: Data, Finance, Finance, Technology, SaaS, Enterprise, Market Data, Sign In
+    With Facebook, Sign In With Google, Sign In With LinkedIn, REST, JSON, Free Tier,
+    Data Provider, API Provider, Profiles, General Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time-series/master/_listings/knoema/datadatasetdataset-id-get-openapi.md
-- name: Knoema API
-  x-api-slug: knoema-api
-  description: Knoema is the free to use public and open data platform for users with
-    interests in statistics and data analysis, visual storytelling and making infographics
-    and data-driven presentations
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg
-  humanURL: https://knoema.com
-  baseURL: http://knoema.com//api/1.0
-  tags: Time Series
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time-series/master/_listings/knoema/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://kentico.cloud.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://knoema.stack.network
 - type: x-authentication
   url: https://knoema.com/dev/apps/authentication
 - type: x-blog

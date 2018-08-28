@@ -1,0 +1,71 @@
+{
+	"name": "Streadata.io API Gallery - Time Series",
+	"description": "This is a repository of time series APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/time-series.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://time-series.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Knoema",
+			"x-api-slug": "knoema",
+			"description": "Knoema is the free to use public and open data platform for users with interests in statistics and data analysis, visual storytelling and making infographics and data-driven presentations",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg",
+			"humanURL": "https://knoema.com",
+			"baseURL": "http://knoema.com//api/1.0",
+			"tags": "Time Series",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-series/master/_listings/knoema/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Alpha Vantage",
+			"x-api-slug": "alpha-vantage",
+			"description": "Composed of a tight-knit community of researchers, engineers, and business professionals, Alpha Vantage Inc. is a leading provider of free APIs for realtime and historical data on stocks, physical currencies, and digital/crypto currencies. Our success is driven by rigorous research, cutting edge technology, and a disciplined focus on democratizing access to data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2018-01-22 at 4.52.35 PM.png",
+			"humanURL": "https://www.alphavantage.co",
+			"baseURL": "https://www.alphavantage.co//",
+			"tags": "Time Series",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-series/master/_listings/alpha-vantage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "quasardb",
+			"x-api-slug": "quasardb",
+			"description": "quasardb is a distributed time series database with support for server-side aggregations. It scales horizontally and vertically for virtually unlimited capabilities, making it a popular choice for low-latency and Big Data applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28159-www-quasardb-net.jpg",
+			"humanURL": "http://www.quasardb.net",
+			"baseURL": "https:///",
+			"tags": "Time Series",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-series/master/_listings/quasardb/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Time Series",
+	"include": [
+		{
+			"name": "Knoema",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-series/master/_listings/knoema/apis.yaml"
+		},
+		{
+			"name": "Alpha Vantage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-series/master/_listings/alpha-vantage/apis.yaml"
+		},
+		{
+			"name": "quasardb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-series/master/_listings/quasardb/apis.yaml"
+		}
+	]
+}
